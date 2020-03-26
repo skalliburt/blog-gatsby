@@ -19,7 +19,7 @@ const Sidebar = ({ siteMetadata }) => (
       </header>
       <footer>
         <section className="contact">
-          <h3 className="contact-title">Contact me</h3>
+          <h3 className="contact-title">Contactos</h3>
           <ul>
             {siteMetadata.social.twitter && (
               <li>
@@ -54,10 +54,10 @@ const Sidebar = ({ siteMetadata }) => (
             {siteMetadata.social.linkedin && (
               <li>
                 <a
-                  href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`}
+                  href={`https://www.instagram.com/${siteMetadata.social.linkedin}`}
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin" aria-hidden="true" />
+                  <i className="fa fa-instagram" aria-hidden="true" />
                 </a>
               </li>
             )}

@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Flexible Gatsby`,
-    description: `I am a web developer focusing on front-end development. Always hungry to keep learning.`,
-    author: `David Freeman`,
+    title: `Alexander Ortiz`,
+    description: `Desarrollador web freelance, especialidad en Front-End .`,
+    author: `Alexander Ortiz`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
     social: {
-      twitter: `wang0nya`,
-      facebook: ``,
-      github: `wangonya`,
-      linkedin: `wangonya`,
-      email: `kwangonya@gmail.com`,
+      twitter: ``,
+      facebook: `UnaWebDiferente`,
+      github: `skalliburt`,
+      linkedin: `unawebdiferente92`,
+      email: `alex.ortiz@unawebdiferente.com`,
     },
   },
   plugins: [
@@ -56,8 +56,8 @@ module.exports = {
         name: `flexible-gatsby-starter`,
         short_name: `flexible-gatsby`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ff9696`,
+        theme_color: `#ff9696`,
         display: `minimal-ui`,
         icon: `./static/gatsby-icon.png`, // This path is relative to the root of the site.
       },
